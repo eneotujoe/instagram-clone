@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './components/Nav'
+import Cards from './components/Cards'
+import Sidebar from './components/Sidebar'
+import './styles/App.scss'
+import { Helmet } from "react-helmet"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Helmet>
+        <title>Eneotu | Instagram Clone</title>
+      </Helmet>
+      <Nav />
+      <main>
+        <div className='container'>
+          <Cards />
+          <Sidebar />
+        </div>
+      </main>
     </div>
   );
 }
