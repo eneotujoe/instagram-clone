@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Instagram Clone with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) following this [tutorial](https://www.youtube.com/watch?v=6sFTbTAVn5M&t=4745s).
 
 ## Available Scripts
 
