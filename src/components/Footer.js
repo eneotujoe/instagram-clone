@@ -15,7 +15,9 @@ function Footer() {
                 <li>Hashtags</li>
                 <li>Language</li>
             </ul>
-            <div className='copyright'>@ 2021 Instagram from Facebook</div>
+            <div className='copyright'>&copy; {new Date().getFullYear()}  Instagram from Facebook</div>
+            <div className='builtBy'>Built By <strong>Eneotu Joe</strong>
+            </div>
         </div>
     )
 }
