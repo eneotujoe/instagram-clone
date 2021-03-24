@@ -1,11 +1,11 @@
 import '../styles/stories.scss'
 import Story from './Story'
-import HorizontalScroll from 'react-scroll-horizontal'
+// import HorizontalScroll from 'react-scroll-horizontal'
 
 function Stories() {
     return (
         <div className='stories'>
-            <HorizontalScroll className='scroll' reverseScroll={true}>
+            <div className='row__posters'>
                 <Story />
                 <Story />
                 <Story />
@@ -28,7 +28,7 @@ function Stories() {
                 <Story />
                 <Story />
                 <Story />
-            </HorizontalScroll>
+            </div>
         </div>
     )
 }
