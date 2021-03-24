@@ -1,11 +1,10 @@
 import '../styles/stories.scss'
 import Story from './Story'
-// import HorizontalScroll from 'react-scroll-horizontal'
 
 function Stories() {
     return (
         <div className='stories'>
-            <div className='row__posters'>
+            <div className='stories__scroll'>
                 <Story />
                 <Story />
                 <Story />

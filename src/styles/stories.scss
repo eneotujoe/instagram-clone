@@ -10,13 +10,13 @@
     height: 7.4em;
     overflow: hidden;
 
-    .row__posters {
+    .stories__scroll {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     }
-    
-    .row__posters::-webkit-scrollbar {
+
+    .stories__scroll::-webkit-scrollbar {
     display: none;
     }
 }
