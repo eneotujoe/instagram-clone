@@ -10,7 +10,7 @@ function Nav() {
                 <img className='logo' src={logo} alt='instagram logo' />
                 <div className='search'>
                     <img className='search__icon' src={searchIcon} alt='search icon' />
-                    <span className='search__text'></span>
+                    <span className='search__text'>Search</span>
                 </div>
                 <Menu />
             </div>
